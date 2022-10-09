@@ -80,5 +80,17 @@ lenguajes.clear()
 print(diccionario,lenguajes)
 
 
-#
+#3) Realizar un programa que pida al usuario 3 números que pueden ser flotantes (no es necesario realizar bucles aún, podemos repetir el código), estos números se deberán introducir en una lista.
+#  Cuando se haya finalizado la introducción de los datos, se mostrará el sumatorio de toda la lista. Guardar el sumatorio en una variable que se llame "sumatorio"
+numeros = []
+(print("Introduce 3 números: "))
+for i in range(3):
+    numeros.append(float(input("Introduzca un valor: ")))
+print(numeros)
+
+sumatorio = numeros[0] + numeros [1] + numeros [2]
+print("La suma de los tres números es: ",sumatorio)
+
+    
+
 
