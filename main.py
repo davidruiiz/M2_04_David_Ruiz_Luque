@@ -88,9 +88,12 @@ for i in range(3):
     numeros.append(float(input("Introduzca un valor: ")))
 print(numeros)
 
-sumatorio = numeros[0] + numeros [1] + numeros [2]
-print("La suma de los tres números es: ",sumatorio)
+sumatorio = numeros[0] + numeros[1] + numeros[2]
+print("La suma de los tres números es",sumatorio)
 
-    
+
+#4) Sobre el ejercicio anterior, queremos mostrar la media aritmética de los elementos de esa lista. Indicar la instrucción necesaria para obtenerla.
+media = sumatorio/len(numeros) #La media artimética será la suma de los tres elementos de la lista dividido entre su nº de elementos.
+print("La media aritmética es",media)
 
 
